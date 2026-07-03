@@ -1,0 +1,17 @@
+{
+  "name": "forge-api",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {    "@forge/engine": "workspace:*",
+    "@forge/runtime": "workspace:*",
+    "@forge/core": "workspace:*",
+    "@forge/config": "workspace:*",
+    "@forge/telemetry": "workspace:*"
+  }
+}

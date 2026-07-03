@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.turbo/
+*.log
+.env
+.env.*
+
+# Generated quality artifacts — never commit
+coverage/
+reports/
+test-results/
+playwright-report/
+apps/dashboard/tests/output/
+
+.forge/runs/

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-1",
+    "date": "2025-05-01",
+    "merchant": "Salary Deposit",
+    "amountCents": 450000,
+    "category": "income",
+    "type": "credit"
+  },
+  {
+    "id": "txn-2",
+    "date": "2025-05-02",
+    "merchant": "Whole Foods Market",
+    "amountCents": 8542,
+    "category": "groceries",
+    "type": "debit"
+  },
+  {
+    "id": "txn-3",
+    "date": "2025-05-03",
+    "merchant": "Rent Payment",
+    "amountCents": 180000,
+    "category": "housing",
+    "type": "debit"
+  },
+  {
+    "id": "txn-4",
+    "date": "2025-05-05",
+    "merchant": "Uber Trip",
+    "amountCents": 2450,
+    "category": "transport",
+    "type": "debit"
+  },
+  {
+    "id": "txn-5",
+    "date": "2025-05-08",
+    "merchant": "Gas Station",
+    "amountCents": 5200,
+    "category": "transport",
+    "type": "debit"
+  },
+  {
+    "id": "txn-6",
+    "date": "2025-05-12",
+    "merchant": "Random Purchase",
+    "amountCents": 1599,
+    "category": "uncategorized",
+    "type": "debit"
+  },
+  {
+    "id": "txn-7",
+    "date": "2025-05-15",
+    "merchant": "Whole Foods Market",
+    "amountCents": 9218,
+    "category": "groceries",
+    "type": "debit"
+  }
+]

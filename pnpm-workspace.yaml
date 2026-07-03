@@ -1,0 +1,6 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+  - '../Arsenal/packages/*'
+allowBuilds:
+  esbuild: true

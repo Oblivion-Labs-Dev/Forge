@@ -1,0 +1,45 @@
+{
+  "name": "forge-workspace",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "pnpm --filter @forge/engine build && pnpm --filter forge-dashboard build",
+    "build:all": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.check.json",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\"",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:contracts": "vitest run tests/contracts",
+    "test:golden": "vitest run tests/golden",
+    "test:evals": "vitest run tests/evals",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "pnpm --filter forge-dashboard exec playwright test e2e/smoke.spec.ts",
+    "test:visual": "pnpm --filter forge-dashboard test:visual",
+    "quality:gate": "tsx scripts/quality-gate.ts",
+    "quality:report": "tsx scripts/generate-quality-report.ts",
+    "forge:poc": "tsx scripts/run-poc.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^20.17.9",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vitest/coverage-v8": "^2.1.8",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.16.0",
+    "globals": "^17.7.0",
+    "prettier": "^3.4.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "turbo": "^2.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "zod": "^3.23.8"
+  }
+}

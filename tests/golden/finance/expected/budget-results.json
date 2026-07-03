@@ -1,0 +1,23 @@
+[
+  {
+    "category": "groceries",
+    "spentCents": 17760,
+    "limitCents": 50000,
+    "remainingCents": 32240,
+    "overBudget": false
+  },
+  {
+    "category": "housing",
+    "spentCents": 180000,
+    "limitCents": 200000,
+    "remainingCents": 20000,
+    "overBudget": false
+  },
+  {
+    "category": "transport",
+    "spentCents": 7650,
+    "limitCents": 10000,
+    "remainingCents": 2350,
+    "overBudget": false
+  }
+]

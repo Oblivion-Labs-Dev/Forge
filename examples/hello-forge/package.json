@@ -1,0 +1,22 @@
+{
+  "name": "hello-forge",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@forge/goals": "workspace:*",
+    "@forge/connectors": "workspace:*",
+    "@forge/core": "workspace:*",
+    "@forge/runtime": "workspace:*",
+    "@forge/tools": "workspace:*",
+    "@forge/skills": "workspace:*",
+    "@forge/telemetry": "workspace:*",
+    "@forge/engine": "workspace:*",
+    "@forge/config": "workspace:*"
+  }
+}

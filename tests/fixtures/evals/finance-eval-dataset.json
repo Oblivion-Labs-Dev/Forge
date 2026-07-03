@@ -1,0 +1,29 @@
+[
+  {
+    "id": "eval-001",
+    "input": "Analyze spending for May 2025",
+    "output": {
+      "recommendations": [
+        "Review groceries spending — $177.60 this period.",
+        "Transport costs are within budget."
+      ],
+      "riskScore": 0.25,
+      "categories": ["groceries", "transport"],
+      "estimatedSavingsCents": 5000,
+      "merchants": ["Whole Foods Market", "Uber Trip"]
+    }
+  },
+  {
+    "id": "eval-002",
+    "input": "Summarize monthly budget status",
+    "output": {
+      "recommendations": [
+        "Housing spend is at 90% of limit — monitor closely."
+      ],
+      "riskScore": 0.45,
+      "categories": ["housing"],
+      "estimatedSavingsCents": 0,
+      "merchants": ["Rent Payment"]
+    }
+  }
+]

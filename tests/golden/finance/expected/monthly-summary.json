@@ -1,0 +1,13 @@
+{
+  "month": "2025-05",
+  "totalIncomeCents": 450000,
+  "totalExpenseCents": 207009,
+  "netCents": 242991,
+  "transactionCount": 7,
+  "topCategories": [
+    { "category": "housing", "amountCents": 180000 },
+    { "category": "groceries", "amountCents": 17760 },
+    { "category": "transport", "amountCents": 7650 },
+    { "category": "uncategorized", "amountCents": 1599 }
+  ]
+}

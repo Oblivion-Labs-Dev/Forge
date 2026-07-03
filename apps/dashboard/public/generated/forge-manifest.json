@@ -1,0 +1,128 @@
+{
+  "packages": [
+    {
+      "name": "archive",
+      "purpose": "archive workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core"
+      ]
+    },
+    {
+      "name": "artisans",
+      "purpose": "artisans workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core"
+      ]
+    },
+    {
+      "name": "codex",
+      "purpose": "codex workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core"
+      ]
+    },
+    {
+      "name": "engine",
+      "purpose": "engine workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/memory",
+        "@forge/core",
+        "@forge/goals",
+        "@forge/telemetry"
+      ]
+    },
+    {
+      "name": "gateways",
+      "purpose": "gateways workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core"
+      ]
+    },
+    {
+      "name": "goals",
+      "purpose": "goals workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core"
+      ]
+    },
+    {
+      "name": "guilds",
+      "purpose": "guilds workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core",
+        "@forge/artisans"
+      ]
+    },
+    {
+      "name": "runtime",
+      "purpose": "runtime workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/engine",
+        "@forge/core",
+        "@forge/config",
+        "@forge/telemetry"
+      ]
+    },
+    {
+      "name": "workshops",
+      "purpose": "workshops workspace implementation",
+      "exports": [
+        "default"
+      ],
+      "composes": [
+        "core"
+      ],
+      "dependencies": [
+        "@forge/core"
+      ]
+    }
+  ]
+}

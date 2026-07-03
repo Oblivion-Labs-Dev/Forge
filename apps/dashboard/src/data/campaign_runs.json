@@ -1,0 +1,27 @@
+[
+  {
+    "runId": "campaign_20260629_001000",
+    "timestamp": "2026-06-29T07:10:00.000Z",
+    "subject": "Outreach: Engineering & Design roles",
+    "status": "success",
+    "durationSeconds": 4.8,
+    "metrics": {
+      "total": 5,
+      "delivered": 4,
+      "failed": 1
+    },
+    "errors": [
+      {
+        "email": "jswint@rippling.com",
+        "message": "Host returned 550 User Unknown"
+      }
+    ],
+    "recipientLogs": [
+      { "name": "Steve Silva", "email": "steve.silva@salesforce.com", "company": "Salesforce", "status": "delivered" },
+      { "name": "Jackie Ryan", "email": "jackie.ryan@whatnot.com", "company": "Whatnot", "status": "delivered" },
+      { "name": "Jason Swint", "email": "jswint@rippling.com", "company": "Rippling", "status": "failed", "error": "Host returned 550 User Unknown" },
+      { "name": "Julianna Lim", "email": "julianna.lim@uber.com", "company": "Uber", "status": "delivered" },
+      { "name": "Amy Martin", "email": "amym@netflix.com", "company": "Netflix", "status": "delivered" }
+    ]
+  }
+]

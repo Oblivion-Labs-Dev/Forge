@@ -1,0 +1,39 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@forge/core": ["../Arsenal/packages/core/src/index.ts"],
+      "@forge/contracts": ["../Arsenal/packages/contracts/src/index.ts"],
+      "@forge/config": ["../Arsenal/packages/config/src/index.ts"],
+      "@forge/logging": ["../Arsenal/packages/logging/src/index.ts"],
+      "@forge/events": ["../Arsenal/packages/events/src/index.ts"],
+      "@forge/telemetry": ["../Arsenal/packages/telemetry/src/index.ts"],
+      "@forge/models": ["../Arsenal/packages/models/src/index.ts"],
+      "@forge/tools": ["../Arsenal/packages/tools/src/index.ts"],
+      "@forge/memory": ["../Arsenal/packages/memory/src/index.ts"],
+      "@forge/scheduler": ["../Arsenal/packages/scheduler/src/index.ts"],
+      "@forge/evaluation": ["../Arsenal/packages/evaluation/src/index.ts"],
+      "@forge/testing": ["../Arsenal/packages/testing/src/index.ts"],
+      "@forge/runtime": ["./packages/runtime/src/index.ts"],
+      "@forge/engine": ["./packages/engine/src/index.ts"],
+      "@forge/goals": ["./packages/goals/src/index.ts"],
+      "@forge/guilds": ["./packages/guilds/src/index.ts"],
+      "@forge/artisans": ["./packages/artisans/src/index.ts"],
+      "@forge/workshops": ["./packages/workshops/src/index.ts"],
+      "@forge/archive": ["./packages/archive/src/index.ts"],
+      "@forge/codex": ["./packages/codex/src/index.ts"],
+      "@forge/gateways": ["./packages/gateways/src/index.ts"]
+    }
+  },
+  "include": [
+    "packages/engine/src/**/*.ts",
+    "tests/**/*.ts",
+    "scripts/quality-gate.ts",
+    "scripts/generate-quality-report.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

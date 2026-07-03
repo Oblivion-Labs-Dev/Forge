@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "name": "architecture.md",
+      "status": "compiled",
+      "lastLoaded": "2026-06-27T21:01:47.957Z",
+      "hash": "cf-75412b",
+      "sections": [
+        "Architecture Rules"
+      ],
+      "affectedArtisans": [
+        "PlannerArtisan",
+        "BuilderArtisan"
+      ],
+      "constraints": [
+        "Respect boundaries and layout naming conventions"
+      ]
+    },
+    {
+      "name": "arsenal.md",
+      "status": "compiled",
+      "lastLoaded": "2026-06-27T21:01:47.958Z",
+      "hash": "cf-9f4109",
+      "sections": [
+        "Arsenal Rules"
+      ],
+      "affectedArtisans": [
+        "PlannerArtisan",
+        "BuilderArtisan"
+      ],
+      "constraints": [
+        "Respect boundaries and layout naming conventions"
+      ]
+    },
+    {
+      "name": "common.md",
+      "status": "compiled",
+      "lastLoaded": "2026-06-27T21:01:47.959Z",
+      "hash": "cf-f0f208",
+      "sections": [
+        "Common Rules"
+      ],
+      "affectedArtisans": [
+        "PlannerArtisan",
+        "BuilderArtisan"
+      ],
+      "constraints": [
+        "Respect boundaries and layout naming conventions"
+      ]
+    },
+    {
+      "name": "forge.md",
+      "status": "compiled",
+      "lastLoaded": "2026-06-27T21:01:47.959Z",
+      "hash": "cf-49acfe",
+      "sections": [
+        "Forge Rules"
+      ],
+      "affectedArtisans": [
+        "PlannerArtisan",
+        "BuilderArtisan"
+      ],
+      "constraints": [
+        "Respect boundaries and layout naming conventions"
+      ]
+    },
+    {
+      "name": "naming.md",
+      "status": "compiled",
+      "lastLoaded": "2026-06-27T21:01:47.959Z",
+      "hash": "cf-345cd3",
+      "sections": [
+        "Naming Rules"
+      ],
+      "affectedArtisans": [
+        "PlannerArtisan",
+        "BuilderArtisan"
+      ],
+      "constraints": [
+        "Respect boundaries and layout naming conventions"
+      ]
+    }
+  ]
+}

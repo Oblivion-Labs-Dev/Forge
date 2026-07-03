@@ -1,0 +1,124 @@
+{
+  "packages": [
+    {
+      "name": "config",
+      "purpose": "config module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "contracts",
+      "purpose": "contracts module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "core",
+      "purpose": "core module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "evaluation",
+      "purpose": "evaluation module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "events",
+      "purpose": "events module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "logging",
+      "purpose": "logging module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "memory",
+      "purpose": "memory module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "models",
+      "purpose": "models module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "scheduler",
+      "purpose": "scheduler module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "telemetry",
+      "purpose": "telemetry module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "testing",
+      "purpose": "testing module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "tools",
+      "purpose": "tools module",
+      "version": "0.1.0",
+      "status": "stable",
+      "exports": [
+        "default"
+      ],
+      "dependencies": []
+    }
+  ]
+}
